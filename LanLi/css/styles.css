@@ -1,0 +1,59 @@
+.errInvis{
+    visibility: hidden;
+}
+
+.errVis{
+    visibility: visible;
+    font-family: 'Lucida Handwriting',cursive;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #848c82;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #5d5f5d;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+table{
+    border-collapse: collapse; 
+    width: 100%; 
+    font-family: 'Lucida Handwriting'; 
+}
+
+#title {
+    color: #9ea781;
+    font-family: 'Brush Script MT', cursive;
+    text-align: left;
+    text-shadow: 1.8px 1.8px rgba(115, 115, 115, 0.795) ;
+    font-size: 40px;
+}
+
+body{
+    background-color: #395959;
+    font-family: 'Lucida Handwriting',cursive;
+    color:#202020;
+    font-size: 18px;
+}
+
+button, select{
+    font-family: 'Lucida Handwriting';
+    color:rgba(32, 32, 32, 0.877);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+hr{
+    border-color: #202020;
+    border-width: 1.5px;
+}
